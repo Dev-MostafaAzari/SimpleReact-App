@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom"
 
 function Navbar(){
     return(
@@ -10,11 +10,9 @@ function Navbar(){
             </button>
             <div class="collapse navbar-collapse" id="navbar1">
                 <ul class="navbar-nav me-auto">
-                    
-                    
-                    <li class="nav-item"><a class="nav-link link-primary fs-5" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link link-primary fs-5" href="products.html">Products</a></li>
-                    <li class="nav-item"><a class="nav-link link-primary fs-5" href="#">Contact</a></li>
+                    <li class="nav-item"><Link class="nav-link link-primary fs-5" to="/" >Home</Link></li>
+                    <li class="nav-item"><Link class="nav-link link-primary fs-5" to="/products" >Products</Link></li>
+                    <li class="nav-item"><Link class="nav-link link-primary fs-5" to="/contact" >Contact</Link></li>
                 </ul>
             
                 <form class="d-flex me-2">
@@ -22,7 +20,7 @@ function Navbar(){
                     <button type="submit" class="btn btn-primary">Search</button>
                 </form>
             </div>
-            
+             
         </div>
     </nav>
     )

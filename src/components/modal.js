@@ -27,7 +27,7 @@ function Modal1() {
                     <Button variant="secondary" onClick={CloseModal}>CloseModal</Button>
                 </Modal.Footer>
             </Modal>
-
+        
         </div>
     )
 }
