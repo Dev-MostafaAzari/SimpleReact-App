@@ -1,23 +1,31 @@
-import React from "react";
+import React,{useContext} from "react";
+import { Button } from "react-bootstrap";
 import {Link} from "react-router-dom"
+import { OffcanvosCon } from "../contexts/OffcanvasContext";
+
 
 function Navbar(){
+    var {Open}=useContext(OffcanvosCon);
+
+
+
+
     return(
-        <nav class="navbar navbar-expand-lg bg-light  border-bottom border-primary border-1">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-expanded="false" aria-controls="navbar1" aria-label="navbarBtn">
-                <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg bg-light  border-bottom border-primary border-1">
+        <div className="container-fluid">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-expanded="false" aria-controls="navbar1" aria-label="navbarBtn">
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><Link class="nav-link link-primary fs-5" to="/" >Home</Link></li>
-                    <li class="nav-item"><Link class="nav-link link-primary fs-5" to="/products" >Products</Link></li>
-                    <li class="nav-item"><Link class="nav-link link-primary fs-5" to="/contact" >Contact</Link></li>
+            <div className="collapse navbar-collapse" id="navbar1">
+                <ul className="navbar-nav me-auto">
+                    <li className="nav-item"><Button className="fs-5" onClick={Open}>Accordion</Button></li>
+                    <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/" >Home</Link></li>
+                    <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/products" >Products</Link></li>
+                    <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/contact" >Contact</Link></li>
                 </ul>
-            
-                <form class="d-flex me-2">
-                    <input class="form-control" type="search" placeholder="Search in site...."/>
-                    <button type="submit" class="btn btn-primary">Search</button>
+                <form className="d-flex me-2">
+                    <input className="form-control" type="search" placeholder="Search in site...."/>
+                    <button type="submit" className="btn btn-primary">Search</button>
                 </form>
             </div>
              
