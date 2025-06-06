@@ -1,9 +1,14 @@
-import React from 'react';
-import { Container, Card, Row, Col, Button, ButtonGroup, CardLink, CardText, CardTitle, Accordion, AccordionItem, AccordionHeader, AccordionBody } from 'react-bootstrap';
+import React,{useState} from 'react';
+import { Container, Card, Row, Col, Button, ButtonGroup, CardLink, CardText, CardTitle, Accordion, AccordionItem, AccordionHeader, AccordionBody, Pagination } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 
 function Products() {
+    var [value,setValue]=useState("0")
+    function Price(event){
+        setValue(event.target.value)
+    }
     return (
         <Container>
             <Row dir="rtl" className="justify-content-around">
@@ -12,6 +17,14 @@ function Products() {
                         <AccordionItem eventKey="0">
                             <AccordionHeader>Header</AccordionHeader>
                             <AccordionBody>Body</AccordionBody>
+                        </AccordionItem>
+                    </Accordion>
+                    <Accordion>
+                        <AccordionItem eventKey="1">
+                            <AccordionHeader>Price</AccordionHeader>
+                            <AccordionBody>
+                                <span className="ms-2">{value}$</span><input type="range" min={10} max={15000} step={50} onChange={Price}/><span className="me-2">15000$</span>
+                            </AccordionBody>
                         </AccordionItem>
                     </Accordion>
                 </Col>
@@ -25,8 +38,8 @@ function Products() {
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
-                                            <Button variant='success'>Order</Button>
-                                            <Button variant='info'>Info</Button>
+                                            <Button className="btn-sm" variant='success'>Order</Button>
+                                            <Button className="btn-sm" variant='info'>Info</Button>
                                         </ButtonGroup>
                                     </CardLink>
                                 </Card.Body>
@@ -40,8 +53,8 @@ function Products() {
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
-                                            <Button variant='success'>Order</Button>
-                                            <Button variant='info'>Info</Button>
+                                            <Button className="btn-sm" variant='success'>Order</Button>
+                                            <Button className="btn-sm" variant='info'>Info</Button>
                                         </ButtonGroup>
                                     </CardLink>
                                 </Card.Body>
@@ -55,8 +68,8 @@ function Products() {
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
-                                            <Button variant='success'>Order</Button>
-                                            <Button variant='info'>Info</Button>
+                                            <Button className="btn-sm" variant='success'>Order</Button>
+                                            <Button className="btn-sm" variant='info'>Info</Button>
                                         </ButtonGroup>
                                     </CardLink>
                                 </Card.Body>
@@ -70,8 +83,8 @@ function Products() {
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
-                                            <Button variant='success'>Order</Button>
-                                            <Button variant='info'>Info</Button>
+                                            <Button className="btn-sm" variant='success'>Order</Button>
+                                            <Button className="btn-sm" variant='info'>Info</Button>
                                         </ButtonGroup>
                                     </CardLink>
                                 </Card.Body>
@@ -85,8 +98,8 @@ function Products() {
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
-                                            <Button variant='success'>Order</Button>
-                                            <Button variant='info'>Info</Button>
+                                            <Button className="btn-sm" variant='success'>Order</Button>
+                                            <Button className="btn-sm" variant='info'>Info</Button>
                                         </ButtonGroup>
                                     </CardLink>
                                 </Card.Body>
@@ -100,8 +113,8 @@ function Products() {
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
-                                            <Button variant='success'>Order</Button>
-                                            <Button variant='info'>Info</Button>
+                                            <Button className="btn-sm" variant='success'>Order</Button>
+                                            <Button className="btn-sm" variant='info'>Info</Button>
                                         </ButtonGroup>
                                     </CardLink>
                                 </Card.Body>
@@ -115,8 +128,8 @@ function Products() {
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
-                                            <Button variant='success'>Order</Button>
-                                            <Button variant='info'>Info</Button>
+                                            <Button className="btn-sm" variant='success'>Order</Button>
+                                            <Button className="btn-sm" variant='info'>Info</Button>
                                         </ButtonGroup>
                                     </CardLink>
                                 </Card.Body>
@@ -130,8 +143,8 @@ function Products() {
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
-                                            <Button variant='success'>Order</Button>
-                                            <Button variant='info'>Info</Button>
+                                            <Button className="btn-sm" variant='success'>Order</Button>
+                                            <Button className="btn-sm" variant='info'>Info</Button>
                                         </ButtonGroup>
                                     </CardLink>
                                 </Card.Body>
@@ -140,7 +153,13 @@ function Products() {
                     </Row>
                 </Col>
             </Row>
-
+            <Pagination className="mt-3 justify-content-center">
+                <Pagination.Item active><Link></Link>1</Pagination.Item>
+                <Pagination.Item><Link></Link>2</Pagination.Item>
+                <Pagination.Item><Link></Link>3</Pagination.Item>
+                <Pagination.Item><Link></Link>4</Pagination.Item>
+                <Pagination.Item><Link></Link>5</Pagination.Item>
+            </Pagination>
         </Container>
     )
 }

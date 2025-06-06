@@ -5,7 +5,7 @@ import Home from "./pages/home";
 import Products from "./pages/products";
 import Contact from "./pages/contact";
 
-
+ 
 function App() {
   return (
     <BrowserRouter>
