@@ -2,6 +2,8 @@ import React,{useContext} from "react";
 import { Button } from "react-bootstrap";
 import {Link} from "react-router-dom"
 import { OffcanvosCon } from "../contexts/OffcanvasContext";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faUser} from "@fortawesome/free-solid-svg-icons"
 
 
 function Navbar(){
@@ -18,7 +20,7 @@ function Navbar(){
             </button>
             <div className="collapse navbar-collapse" id="navbar1">
                 <ul className="navbar-nav me-auto">
-                    <li className="nav-item"><Button className="fs-5" onClick={Open}>Accordion</Button></li>
+                    <li className="nav-item"><Button className="rounded-pill btn-sm mt-2" onClick={Open}><FontAwesomeIcon icon={faUser}/></Button></li>
                     <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/" >Home</Link></li>
                     <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/products" >Products</Link></li>
                     <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/contact" >Contact</Link></li>
