@@ -1,0 +1,19 @@
+#divCar{
+    width: 100%;
+    overflow: hidden;
+    background-color: red;
+}
+#divCar img{
+    object-fit: cover;
+    height: 500px;
+}
+
+@media only screen and (max-width:600px)
+{
+    #divCar img{
+        height: 200px;
+    }
+    #divCar h3,p{
+        font-size: small;
+    }
+}
