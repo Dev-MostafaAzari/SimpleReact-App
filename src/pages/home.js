@@ -1,9 +1,22 @@
-import React from "react";
-import {Carousel, CarouselItem, Col, Container, Row} from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import {Carousel, CarouselItem,Tab, Tabs} from "react-bootstrap";
 import "../style/Home.css"
 
 function Home(){
-    
+    useEffect(()=>{
+        document.body.style.backgroundColor="#7FCDCD";
+        return()=>{
+            document.body.style.backgroundColor="";
+        }
+    })
+    var [active,setActive]=useState("tab1")
+    function select (x){
+        setActive(x)
+
+    }
+
+
+
     return(
         <div>
            <div id="divCar" className="">
@@ -30,7 +43,18 @@ function Home(){
                             </Carousel.Caption>
                         </CarouselItem>
                 </Carousel>
-                
+
+                <Tabs activeKey={active} onSelect={select} id="Tabs" className="mt-3 nav-pill bg-white nav-fill fs-4">
+                    <Tab className="Tabes" eventKey={"tab1"} title="Title-1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, voluptas asperiores. Dignissimos odio atque ipsam numquam at aliquam quis magnam ea iusto, natus nemo consequuntur eveniet! Et, illo? Delectus, optio!</p>
+                    </Tab>
+                    <Tab className="Tabes"  eventKey={"tab2" }title="Title-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat placeat rem veniam ipsum doloribus quisquam corrupti qui tempora facere quo assumenda eaque sit mollitia, excepturi repellat possimus impedit quasi</p>
+                    </Tab>
+                    <Tab className="Tabes" eventKey={"tab3"} title="Title-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia impedit, blanditiis nulla consequuntur inventore! Nobis numquam ea consequuntur asperiores nostrum ad, nulla, sit dolorem qui fugit dolorum! Voluptatem, adipisci.</p>
+                    </Tab>
+                </Tabs>
            </div>
         </div>
     )
