@@ -6,6 +6,7 @@ import Products from "./pages/products";
 import Contact from "./pages/contact";
 import CanvosContext from "./contexts/OffcanvasContext";
 import Offcan from "./components/Offcanvas";
+
  
 function App() {
   return (

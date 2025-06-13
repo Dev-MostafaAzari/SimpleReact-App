@@ -22,7 +22,7 @@ function Offcan() {
                         <Col className="text-center">
                             <img src="/imgs/5.jpg" width={100} className="rounded-pill" alt="ProfilePic" />
                         </Col>
-                        <Col>
+                        <Col> 
                             <ListGroup className="fs-5 mt-3">
                                 <ListGroupItem><Link className="text-decoration-none"><FontAwesomeIcon icon={faUserCircle} className="me-1" />Profile</Link></ListGroupItem>
                                 <ListGroupItem><Link className="text-decoration-none"><FontAwesomeIcon icon={faArchive} className="me-1" />History</Link></ListGroupItem>
