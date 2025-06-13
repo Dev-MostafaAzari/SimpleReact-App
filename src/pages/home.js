@@ -3,6 +3,7 @@ import {Carousel, CarouselItem, Col, Container, Row} from "react-bootstrap";
 import "../style/Home.css"
 
 function Home(){
+    
     return(
         <div>
            <div id="divCar" className="">
@@ -28,7 +29,8 @@ function Home(){
                                 <p>this is a thirdPic for carousel</p>
                             </Carousel.Caption>
                         </CarouselItem>
-                    </Carousel>
+                </Carousel>
+                
            </div>
         </div>
     )
