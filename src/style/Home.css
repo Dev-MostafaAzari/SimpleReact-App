@@ -7,7 +7,7 @@
 #divCar img
 {
     object-fit: cover;
-    height: 500px;
+    height: 600px;
 }
 #Tabs .active
 {
@@ -16,12 +16,24 @@
     transition: all;
     transition-duration: 0.5s;
 }
-.Tabes p 
+#tabsCards .card
 {
-    font-size: 30px;
+    background-color: rgb(228, 211, 211);
     text-align: center;
+    
+}
+#tabsCards a 
+{
+    text-decoration: none;
 }
 
+@media only screen and (max-width:500px)
+{
+    #tabsCards .card-title
+    {
+        font-size: 15px;
+    }
+}
 
 
 
