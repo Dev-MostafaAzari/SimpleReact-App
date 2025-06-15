@@ -4,11 +4,24 @@
     overflow: hidden;
     
 }
+
 #divCar img
 {
     object-fit: cover;
     height: 600px;
 }
+
+#Tabs
+{
+    margin-top: 2px;
+}
+
+#Tabs button
+{
+    background-color: #514B43;
+    color:gold;
+}
+
 #Tabs .active
 {
     background-color: blue;
@@ -16,15 +29,28 @@
     transition: all;
     transition-duration: 0.5s;
 }
+
 #tabsCards .card
 {
     background-color: rgb(228, 211, 211);
     text-align: center;
     
 }
+
+#tabsCards .card-title
+{
+    margin-top:5px;
+}
+
 #tabsCards a 
 {
     text-decoration: none;
+}
+
+#tabsCards p
+{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media only screen and (max-width:500px)
@@ -32,6 +58,10 @@
     #tabsCards .card-title
     {
         font-size: 15px;
+    }
+    #tabsCards p 
+    {
+        font-size: 20px;
     }
 }
 

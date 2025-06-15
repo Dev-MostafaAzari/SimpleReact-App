@@ -46,12 +46,13 @@ function Home() {
                         </CarouselItem>
                     </Carousel>
                 </div>
-                <Tabs activeKey={active} onSelect={select} id="Tabs" className="nav-pill bg-white nav-fill fs-4">
-                    <Tab className="Tabes" eventKey={"tab1"} title="Title-1">
+                <Tabs activeKey={active} onSelect={select} id="Tabs" className="nav nav-pills nav-fill fs-4">
+                    <Tab className="Tabes" eventKey={"tab1"} title="Steam">
                         <Container id="tabsCards">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat placeat rem veniam ipsum doloribus quisquam corrupti qui tempora facere quo assumenda eaque sit mollitia, excepturi repellat possimus impedit quasi</p>
                             <Row className="justify-content-center">
                                 <Col className="col-12">
-                                    <Row lg={3} md={3} xs={2} className="justify-content-start">
+                                    <Row lg={4} md={3} xs={2} className="justify-content-start">
                                         <Col>
                                             <Link>
                                                 <Card className="mt-3">
@@ -87,11 +88,107 @@ function Home() {
                             </Row>
                         </Container>
                     </Tab>
-                    <Tab className="Tabes" eventKey={"tab2"} title="Title-2">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat placeat rem veniam ipsum doloribus quisquam corrupti qui tempora facere quo assumenda eaque sit mollitia, excepturi repellat possimus impedit quasi</p>
+                    <Tab className="Tabes" eventKey={"tab2"} title="Xbox">
+                        <Container id="tabsCards">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat placeat rem veniam ipsum doloribus quisquam corrupti qui tempora facere quo assumenda eaque sit mollitia</p>
+                            <Row className="justify-content-center">
+                                <Col className="col-12">
+                                    <Row lg={4} md={3} xs={2} className="justify-content-start">
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle><span>XboxGiftCard</span></CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle>XboxGames</CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle>XboxGamePass</CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle>XboxAccount</CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                    </Row>
+                                </Col>
+                            </Row>
+                        </Container>
                     </Tab>
-                    <Tab className="Tabes" eventKey={"tab3"} title="Title-3">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia impedit, blanditiis nulla consequuntur inventore! Nobis numquam ea consequuntur asperiores nostrum ad, nulla, sit dolorem qui fugit dolorum! Voluptatem, adipisci.</p>
+                    <Tab className="Tabes" eventKey={"tab3"} title="Playstation">
+                        <Container id="tabsCards">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia impedit, blanditiis nulla consequuntur inventore! Nobis numquam ea consequuntur asperiores nostrum ad, nulla, sit dolorem qui fugit dolorum! Voluptatem, adipisci.</p>
+                            <Row className="justify-content-center">
+                                <Col className="col-12">
+                                    <Row lg={4} md={3} xs={2} className="justify-content-start">
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle><span>PsnGiftCard</span></CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle>PlusGames</CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle>Plus</CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle>PsnAccount</CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                    </Row>
+                                </Col>
+                            </Row>
+                        </Container>
                     </Tab>
                 </Tabs>
             </div>
