@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 import { OffcanvosCon } from "../contexts/OffcanvasContext";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUser} from "@fortawesome/free-solid-svg-icons"
-
+import "../style/Navbar.css"
 
 function Navbar(){
     var {Open}=useContext(OffcanvosCon);

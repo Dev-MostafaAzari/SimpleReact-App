@@ -1,6 +1,6 @@
 .offcanvas-body
 {
-    background-color: darkslategray;
+    background-color: currentColor;
 }
 .offcanvas-header
 {
@@ -21,4 +21,8 @@ div a
 button.btn-close
 {
     filter: invert(1);
+}
+#offcanvasImg
+{
+    border:2px solid black;
 }
