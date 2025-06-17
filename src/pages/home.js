@@ -46,7 +46,7 @@ function Home() {
                         </CarouselItem>
                     </Carousel>
                 </div>
-                <Tabs activeKey={active} onSelect={select} id="Tabs" className="nav nav-pills nav-fill fs-4">
+                <Tabs activeKey={active} onSelect={select} id="Tabs" className="nav  nav-fill fs-4">
                     <Tab className="Tabes" eventKey={"tab1"} title="Steam">
                         <Container id="tabsCards">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat placeat rem veniam ipsum doloribus quisquam corrupti qui tempora facere quo assumenda eaque sit mollitia, excepturi repellat possimus impedit quasi</p>

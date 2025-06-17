@@ -13,18 +13,20 @@
 
 #Tabs
 {
-    margin-top: 2px;
+    
+    --bs-border-radius: 0%;
+    
 }
 
 #Tabs button
 {
-    background-color: #514B43;
-    color:gold;
+    background-color: darkcyan;
+    color:darkblue;
 }
 
 #Tabs .active
 {
-    background-color: blue;
+    background-color: darkblue;
     color: whitesmoke;
     transition: all;
     transition-duration: 0.5s;
