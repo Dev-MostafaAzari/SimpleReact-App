@@ -1,0 +1,24 @@
+.offcanvas-body
+{
+    background-color: darkslategray;
+}
+.offcanvas-header
+{
+    background-color: black;
+}
+div.offcanvas-title
+{
+    color:antiquewhite;
+}
+div.list-group-item
+{
+    background-color: black;
+}
+div a 
+{
+    color:antiquewhite;
+}
+button.btn-close
+{
+    filter: invert(1);
+}

@@ -13,7 +13,7 @@ function Navbar(){
 
 
     return(
-        <nav className="navbar navbar-expand-lg bg-light  border-bottom border-primary border-1">
+        <nav className="navbar navbar-expand-lg bg-dark  border-bottom border-dark border-1">
         <div className="container-fluid">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-expanded="false" aria-controls="navbar1" aria-label="navbarBtn">
                 <span className="navbar-toggler-icon"></span>
@@ -21,9 +21,9 @@ function Navbar(){
             <div className="collapse navbar-collapse" id="navbar1">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item"><Button className="rounded-pill btn-sm mt-2" onClick={Open}><FontAwesomeIcon icon={faUser}/></Button></li>
-                    <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/" >Home</Link></li>
-                    <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/products" >Products</Link></li>
-                    <li className="nav-item"><Link className="nav-link link-primary fs-5" to="/contact" >Contact</Link></li>
+                    <li className="nav-item"><Link className="nav-link link-info fs-5" to="/" >Home</Link></li>
+                    <li className="nav-item"><Link className="nav-link link-info fs-5" to="/products" >Products</Link></li>
+                    <li className="nav-item"><Link className="nav-link link-info fs-5" to="/contact" >Contact</Link></li>
                 </ul>
                 <form className="d-flex me-2">
                     <input className="form-control" type="search" placeholder="Search in site...."/>

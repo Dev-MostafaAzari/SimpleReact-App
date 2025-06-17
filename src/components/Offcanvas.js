@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { OffcanvosCon } from '../contexts/OffcanvasContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faArchive, faPhone, faSignOut } from '@fortawesome/free-solid-svg-icons';
-
+import "../style/Offcanvas.css"
 
 
 function Offcan() {
