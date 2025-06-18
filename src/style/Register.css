@@ -1,0 +1,25 @@
+#registerForm
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: blue;
+    
+}
+#registerForm input
+{
+    margin: auto;
+    max-width: 500px;
+    margin-top:4px;
+}
+#registerForm #submit 
+{
+    max-width: 500px;
+}
+#registerForm .form-select
+{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 4px;
+}

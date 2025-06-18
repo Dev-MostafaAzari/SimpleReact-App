@@ -3,9 +3,9 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Products from "./pages/products";
-import Contact from "./pages/contact";
 import CanvosContext from "./contexts/OffcanvasContext";
 import Offcan from "./components/Offcanvas";
+import Register from "./pages/register";
 
  
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/products" element={<Products/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/register" element={<Register/>}/>
         </Routes>
       </div>
     </BrowserRouter>
