@@ -34,7 +34,7 @@
 
 #tabsCards .card
 {
-    background-color: rgb(228, 211, 211);
+    background-color:darkcyan;
     text-align: center;
     
 }
@@ -42,17 +42,20 @@
 #tabsCards .card-title
 {
     margin-top:5px;
+    color:antiquewhite;
 }
 
 #tabsCards a 
 {
     text-decoration: none;
+    
 }
 
 #tabsCards p
 {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightblue;
 }
 
 @media only screen and (max-width:500px)

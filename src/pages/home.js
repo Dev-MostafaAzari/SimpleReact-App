@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     useEffect(() => {
-        document.body.style.backgroundColor = "#7FCDCD";
+        document.body.style.backgroundColor = "currentColor";
         return () => {
             document.body.style.backgroundColor = "";
         }
@@ -79,6 +79,16 @@ function Home() {
                                                     <CardBody>
                                                         <Card.Img src="/imgs/5.jpg" />
                                                         <CardTitle>SteamGames</CardTitle>
+                                                    </CardBody>
+                                                </Card>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link>
+                                                <Card className="mt-3">
+                                                    <CardBody>
+                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <CardTitle>SteamAccount</CardTitle>
                                                     </CardBody>
                                                 </Card>
                                             </Link>
