@@ -1,0 +1,16 @@
+#product .card-body
+{
+    background-color: lightblue;
+}
+.accordion-item
+{
+    margin-top: 3px;
+}
+.accordion-item button
+{
+    background-color: lightseagreen;
+}
+.accordion-body
+{
+    background-color: lightseagreen;
+}

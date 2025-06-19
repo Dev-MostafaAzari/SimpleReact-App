@@ -1,10 +1,16 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 import { Container, Card, Row, Col, Button, ButtonGroup, CardLink, CardText, CardTitle, Accordion, AccordionItem, AccordionHeader, AccordionBody, Pagination } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import "../style/Product.css";
 
 
 function Products() {
+    useEffect(()=>{
+        document.body.style.backgroundColor="currentColor";
+        return()=>{
+            document.body.style.backgroundColor=""
+        }
+    })
     var [value,setValue]=useState("0")
     function Price(event){
         setValue(event.target.value)
@@ -29,7 +35,7 @@ function Products() {
                     </Accordion>
                 </Col>
                 <Col className="col-xl-9 col-lg-10 col-md-8 col-sm-8 col-12">
-                    <Row xs={2} md={3} lg={4} className="justify-content-center">
+                    <Row xs={2} md={3} lg={4} id="product" className="justify-content-center">
                         <Col>
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
