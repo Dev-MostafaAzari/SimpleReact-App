@@ -39,6 +39,7 @@
     max-width: 600px;
     margin: auto;
     margin-top: 4px;
+    cursor: pointer;
 }
 
 #AlertDiv
@@ -49,7 +50,7 @@
 #AlertDiv .alert
 {
     max-width: 300px;
-    background-color: darkred;
+    background-color: rgb(97, 6, 6);
     display: flex;
     margin-right: 7px;
     margin-top: 4px;
@@ -58,6 +59,9 @@
 #AlertDiv .btn-close
 {
     margin-right: 200px;
+    filter: invert(0);
+    background-color: rgb(97, 6, 6);
+    margin-top: 4px;
     
 }
 
