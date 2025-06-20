@@ -40,3 +40,29 @@
     margin: auto;
     margin-top: 4px;
 }
+
+#AlertDiv
+{
+    direction: rtl;
+}
+
+#AlertDiv .alert
+{
+    max-width: 300px;
+    background-color: darkred;
+    display: flex;
+    margin-right: 7px;
+    margin-top: 4px;
+}
+
+#AlertDiv .btn-close
+{
+    margin-right: 200px;
+    
+}
+
+#AlertDiv .alert-heading
+{
+    font-size: 20px;
+    color:whitesmoke;
+}
