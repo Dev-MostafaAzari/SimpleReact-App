@@ -1,25 +1,42 @@
+#registerCol
+{
+    
+    box-shadow: gray 0px 1px 3px 0px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 #registerForm
 {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     margin-top: 50px;
-    color: blue;
-    
+    color: gold;
+    margin-bottom: 50px;
 }
+
 #registerForm input
 {
     margin: auto;
-    max-width: 500px;
+    max-width: 600px;
     margin-top:4px;
 }
-#registerForm #submit 
+
+#registerForm #BtnDiv
 {
-    max-width: 500px;
+    display: grid;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 4px;
 }
+
 #registerForm .form-select
 {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     margin-top: 4px;
 }

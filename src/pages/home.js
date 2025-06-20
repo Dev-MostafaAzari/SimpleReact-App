@@ -26,22 +26,22 @@ function Home() {
                         <CarouselItem>
                             <img src="/imgs/6.jpg" alt="firstPic" className="d-block w-100" />
                             <Carousel.Caption>
-                                <h3>avali</h3>
-                                <p>this is a firstPic for carousel</p>
+                                <h3>First</h3>
+                                <p>This is a First Picture !</p>
                             </Carousel.Caption>
                         </CarouselItem>
                         <CarouselItem>
                             <img src="/imgs/7.jpg" alt="secPic" className="d-block w-100" />
                             <Carousel.Caption>
-                                <h3>dovomi</h3>
-                                <p>this is a secoundPic for carousel</p>
+                                <h3>Secound</h3>
+                                <p>This is a Secound Picture !</p>
                             </Carousel.Caption>
                         </CarouselItem>
                         <CarouselItem>
                             <img src="/imgs/8.jpg" alt="thirdPic" className="d-block w-100" />
                             <Carousel.Caption>
-                                <h3>sevomi</h3>
-                                <p>this is a thirdPic for carousel</p>
+                                <h3>Third</h3>
+                                <p>This is a Third Picture !</p>
                             </Carousel.Caption>
                         </CarouselItem>
                     </Carousel>
