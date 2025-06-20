@@ -62,7 +62,9 @@
     filter: invert(0);
     background-color: rgb(97, 6, 6);
     margin-top: 4px;
-    
+    position: absolute;
+    top: 15px;
+    left: 20px;
 }
 
 #AlertDiv .alert-heading

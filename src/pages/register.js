@@ -12,7 +12,7 @@ function Register() {
 
     var [alert, setAlert] = useState(true)
 
-    var [error, setError] = useState("test")
+    var [error, setError] = useState("invalid username")
 
     function Hide(){
         setAlert(false)
