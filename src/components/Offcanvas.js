@@ -5,6 +5,7 @@ import { OffcanvosCon } from '../contexts/OffcanvasContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faArchive, faPhone, faSignOut } from '@fortawesome/free-solid-svg-icons';
 import "../style/Offcanvas.css"
+import myPhoto from "../assets/5.jpg";
 
 
 function Offcan() {
@@ -20,7 +21,7 @@ function Offcan() {
                 <OffcanvasBody>
                     <Row className="row-cols-1">
                         <Col className="text-center">
-                            <img src="/imgs/5.jpg" id="offcanvasImg" width={100} className="rounded-pill" alt="ProfilePic" />
+                            <img src={myPhoto} id="offcanvasImg" width={100} className="rounded-pill" alt="ProfilePic" />
                         </Col>
                         <Col> 
                             <ListGroup className="fs-5 mt-3">

@@ -2,6 +2,7 @@ import React,{useEffect, useState} from 'react';
 import { Container, Card, Row, Col, Button, ButtonGroup, CardLink, CardText, CardTitle, Accordion, AccordionItem, AccordionHeader, AccordionBody, Pagination } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import "../style/Product.css";
+import myPhoto from "../assets/5.jpg";
 
 
 function Products() {
@@ -40,7 +41,7 @@ function Products() {
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
                                     <CardTitle className="text-center">Product-1</CardTitle>
-                                    <Card.Img src="/imgs/5.jpg"></Card.Img>
+                                    <Card.Img src={myPhoto}></Card.Img>
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
@@ -55,7 +56,7 @@ function Products() {
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
                                     <CardTitle className="text-center">Product-1</CardTitle>
-                                    <Card.Img src="/imgs/5.jpg"></Card.Img>
+                                    <Card.Img src={myPhoto}></Card.Img>
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
@@ -70,7 +71,7 @@ function Products() {
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
                                     <CardTitle className="text-center">Product-1</CardTitle>
-                                    <Card.Img src="/imgs/5.jpg"></Card.Img>
+                                    <Card.Img src={myPhoto}></Card.Img>
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
@@ -85,7 +86,7 @@ function Products() {
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
                                     <CardTitle className="text-center">Product-1</CardTitle>
-                                    <Card.Img src="/imgs/5.jpg"></Card.Img>
+                                    <Card.Img src={myPhoto}></Card.Img>
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
@@ -100,7 +101,7 @@ function Products() {
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
                                     <CardTitle className="text-center">Product-1</CardTitle>
-                                    <Card.Img src="/imgs/5.jpg"></Card.Img>
+                                    <Card.Img src={myPhoto}></Card.Img>
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
@@ -115,7 +116,7 @@ function Products() {
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
                                     <CardTitle className="text-center">Product-1</CardTitle>
-                                    <Card.Img src="/imgs/5.jpg"></Card.Img>
+                                    <Card.Img src={myPhoto}></Card.Img>
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
@@ -130,7 +131,7 @@ function Products() {
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
                                     <CardTitle className="text-center">Product-1</CardTitle>
-                                    <Card.Img src="/imgs/5.jpg"></Card.Img>
+                                    <Card.Img src={myPhoto}></Card.Img>
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
@@ -145,7 +146,7 @@ function Products() {
                             <Card className="mt-3">
                                 <Card.Body className="text-center">
                                     <CardTitle className="text-center">Product-1</CardTitle>
-                                    <Card.Img src="/imgs/5.jpg"></Card.Img>
+                                    <Card.Img src={myPhoto}></Card.Img>
                                     <CardText className="text-center">this is a test text for product!</CardText>
                                     <CardLink>
                                         <ButtonGroup dir='ltr'>
