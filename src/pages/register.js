@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useContext } from 'react';
 import { Container, Row, Col, Form, FormLabel, FormGroup, FormControl, Button, FormSelect, Alert, AlertHeading } from 'react-bootstrap';
 import "../style/Register.css"
+import { ValidCon } from '../contexts/ValidationContext';
 
 function Register() {
     useEffect(() => {
@@ -9,14 +10,8 @@ function Register() {
             document.body.style.backgroundColor = "";
         }
     })
-
-    var [alert, setAlert] = useState(true)
-
-    var [error, setError] = useState("invalid username")
-
-    function Hide(){
-        setAlert(false)
-    }
+    var{error,alert,Hide}=useContext(ValidCon)
+    
     return (
         <>
             <div id="AlertDiv">

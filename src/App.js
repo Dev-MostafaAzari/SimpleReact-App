@@ -6,6 +6,7 @@ import Products from "./pages/products";
 import CanvosContext from "./contexts/OffcanvasContext";
 import Offcan from "./components/Offcanvas";
 import Register from "./pages/register";
+import ValidationContext from "./contexts/ValidationContext";
 
  
 function App() {
@@ -19,7 +20,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/products" element={<Products/>}/>
-          <Route path="/register" element={<Register/>}/>
+          <Route path="/register" element={
+            <ValidationContext>
+              <Register/>
+            </ValidationContext>
+          }/>
+          
+          
         </Routes>
       </div>
     </BrowserRouter>

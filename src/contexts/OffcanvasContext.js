@@ -18,4 +18,4 @@ function CanvosContext(props){
     )
 }
 
-export default CanvosContext;
+export default CanvosContext; 
