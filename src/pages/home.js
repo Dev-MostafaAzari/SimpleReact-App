@@ -24,21 +24,21 @@ function Home() {
                 <div id="divCar">
                     <Carousel>
                         <CarouselItem>
-                            <img src="/imgs/6.jpg" alt="firstPic" className="d-block w-100" />
+                            <img src="imgs/6.jpg" alt="firstPic" className="d-block w-100" />
                             <Carousel.Caption>
                                 <h3>First</h3>
                                 <p>This is a First Picture !</p>
                             </Carousel.Caption>
                         </CarouselItem>
                         <CarouselItem>
-                            <img src="/imgs/7.jpg" alt="secPic" className="d-block w-100" />
+                            <img src="imgs/7.jpg" alt="secPic" className="d-block w-100" />
                             <Carousel.Caption>
                                 <h3>Secound</h3>
                                 <p>This is a Secound Picture !</p>
                             </Carousel.Caption>
                         </CarouselItem>
                         <CarouselItem>
-                            <img src="/imgs/8.jpg" alt="thirdPic" className="d-block w-100" />
+                            <img src="imgs/8.jpg" alt="thirdPic" className="d-block w-100" />
                             <Carousel.Caption>
                                 <h3>Third</h3>
                                 <p>This is a Third Picture !</p>
@@ -57,7 +57,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle><span>SteamGiftCard</span></CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -67,7 +67,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>SteamGames</CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -77,7 +77,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>SteamGames</CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -87,7 +87,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>SteamAccount</CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -108,7 +108,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle><span>XboxGiftCard</span></CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -118,7 +118,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>XboxGames</CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -128,7 +128,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>XboxGamePass</CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -138,7 +138,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>XboxAccount</CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -159,7 +159,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle><span>PsnGiftCard</span></CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -169,7 +169,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>PlusGames</CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -179,7 +179,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>Plus</CardTitle>
                                                     </CardBody>
                                                 </Card>
@@ -189,7 +189,7 @@ function Home() {
                                             <Link>
                                                 <Card className="mt-3">
                                                     <CardBody>
-                                                        <Card.Img src="/imgs/5.jpg" />
+                                                        <Card.Img src="imgs/5.jpg" />
                                                         <CardTitle>PsnAccount</CardTitle>
                                                     </CardBody>
                                                 </Card>
