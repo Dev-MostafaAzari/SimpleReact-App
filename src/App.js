@@ -18,7 +18,7 @@ function App() {
           <Offcan/>
         </CanvosContext>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/SimpleReact-App" element={<Home/>}/>
           <Route path="/products" element={<Products/>}/>
           <Route path="/register" element={
             <ValidationContext>

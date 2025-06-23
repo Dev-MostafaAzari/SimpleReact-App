@@ -50,8 +50,8 @@ function Home() {
                         </CarouselItem>
                     </Carousel>
                 </div>
-                <Tabs activeKey={active} onSelect={select} id="Tabs" className="nav  nav-fill fs-4">
-                    <Tab className="Tabes" eventKey={"tab1"} title="Steam">
+                <Tabs activeKey={active} onSelect={select} id="Tabs" className="nav  nav-fill fs-4 row-cols-3">
+                    <Tab className="Tabes col" eventKey={"tab1"} title="Steam">
                         <Container id="tabsCards">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat placeat rem veniam ipsum doloribus quisquam corrupti qui tempora facere quo assumenda eaque sit mollitia, excepturi repellat possimus impedit quasi</p>
                             <Row className="justify-content-center">
@@ -102,7 +102,7 @@ function Home() {
                             </Row>
                         </Container>
                     </Tab>
-                    <Tab className="Tabes" eventKey={"tab2"} title="Xbox">
+                    <Tab className="Tabes col" eventKey={"tab2"} title="Xbox">
                         <Container id="tabsCards">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat placeat rem veniam ipsum doloribus quisquam corrupti qui tempora facere quo assumenda eaque sit mollitia</p>
                             <Row className="justify-content-center">
@@ -153,7 +153,7 @@ function Home() {
                             </Row>
                         </Container>
                     </Tab>
-                    <Tab className="Tabes" eventKey={"tab3"} title="Playstation">
+                    <Tab className="Tabes col" eventKey={"tab3"} title="Psn">
                         <Container id="tabsCards">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia impedit, blanditiis nulla consequuntur inventore! Nobis numquam ea consequuntur asperiores nostrum ad, nulla, sit dolorem qui fugit dolorum! Voluptatem, adipisci.</p>
                             <Row className="justify-content-center">
