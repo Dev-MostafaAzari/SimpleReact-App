@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react';
 export var ValidCon = createContext()
 
 function ValidationContext(props) {
-    var [alert, setAlert] = useState(true)
+    var [alert, setAlert] = useState(false)
 
     var [error, setError] = useState("invalid username")
 
@@ -11,9 +11,15 @@ function ValidationContext(props) {
         setAlert(false)
     }
 
+    function UsernameTest(username){
+        var patt = /[^a-z]/i;
+        return patt.test(username)
+    }
+
+
 
     return (
-        <ValidCon.Provider value={{alert,error,Hide:Hide}}>
+        <ValidCon.Provider value={{alert,error,Hide:Hide,setError:setError,setAlert:setAlert,UsernameTest:UsernameTest}}>
             {props.children}
         </ValidCon.Provider>
     )

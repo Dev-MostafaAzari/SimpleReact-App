@@ -10,7 +10,25 @@ function Register() {
             document.body.style.backgroundColor = "";
         }
     })
-    var{error,alert,Hide}=useContext(ValidCon)
+    var{error,alert,Hide,setError,setAlert,UsernameTest}=useContext(ValidCon)
+
+
+
+    var [name,setName]=useState("")
+    function ChangeName(event)
+    {
+        setName(event.target.value)
+    }
+
+
+    
+    function HandleSubmit(event){
+        event.preventDefault()
+        if(UsernameTest(name)){
+            setAlert(true)
+            setError("invalidUsername")
+        }
+    }
     
     return (
         <>
@@ -24,10 +42,10 @@ function Register() {
                 <Row>
                     <Col id="registerCol">
                         <div>
-                            <Form id="registerForm">
+                            <Form id="registerForm" onSubmit={HandleSubmit}>
                                 <FormLabel>Register Panel</FormLabel>
                                 <FormGroup>
-                                    <FormControl type="text" placeholder="UserName" />
+                                    <FormControl type="text" value={name} onChange={ChangeName} placeholder="UserName" />
                                     <FormControl type="text" placeholder="LastName" />
                                     <FormControl type="text" placeholder="Gmail" />
                                     <FormControl type="text" placeholder="Address" />
@@ -39,7 +57,7 @@ function Register() {
                                         <option>Shiraz</option>
                                     </FormSelect>
                                     <div id="BtnDiv">
-                                        <Button id="submit" className="btn-primary">Submit</Button>
+                                        <Button type="submit" id="submit" className="btn-primary">Submit</Button>
                                     </div>
                                 </FormGroup>
                             </Form>
