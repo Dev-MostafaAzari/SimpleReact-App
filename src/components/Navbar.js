@@ -21,7 +21,7 @@ function Navbar(){
             <div className="collapse navbar-collapse" id="navbar1">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item"><Button className="rounded-pill btn-sm mt-2" onClick={Open}><FontAwesomeIcon icon={faUser}/></Button></li>
-                    <li className="nav-item"><Link className="nav-link link-info fs-5" to="/" >Home</Link></li>
+                    <li className="nav-item"><Link className="nav-link link-info fs-5" to="/SimpleReact-App" >Home</Link></li>
                     <li className="nav-item"><Link className="nav-link link-info fs-5" to="/products" >Products</Link></li>
                     <li className="nav-item"><Link className="nav-link link-info fs-5" to="/register" >Register</Link></li>
                 </ul>
