@@ -13,13 +13,23 @@ function ValidationContext(props) {
 
     function UsernameTest(username){
         var patt = /[^a-z]/i;
-        return patt.test(username)
+        return patt.test(username);
+    }
+
+    function LnameTest(lname){
+        var patt = /[^a-z]/i;
+        return patt.test(lname);
+    }
+
+    function GmailTest(gmail){
+        var patt = /@gmail.com$/;
+        return patt.test(gmail);
     }
 
 
 
     return (
-        <ValidCon.Provider value={{alert,error,Hide:Hide,setError:setError,setAlert:setAlert,UsernameTest:UsernameTest}}>
+        <ValidCon.Provider value={{alert,error,Hide:Hide,setError:setError,setAlert:setAlert,UsernameTest:UsernameTest,LnameTest:LnameTest,GmailTest:GmailTest}}>
             {props.children}
         </ValidCon.Provider>
     )
