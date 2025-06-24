@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/SimpleReact-App/static/css/main.4900237a.css",
-    "main.js": "/SimpleReact-App/static/js/main.88bad9ac.js",
+    "main.css": "/SimpleReact-App/static/css/main.35078438.css",
+    "main.js": "/SimpleReact-App/static/js/main.9410bcfc.js",
     "static/js/453.d334c5b4.chunk.js": "/SimpleReact-App/static/js/453.d334c5b4.chunk.js",
     "static/media/8.jpg": "/SimpleReact-App/static/media/8.1e311de2ad7c03e45272.jpg",
     "static/media/7.jpg": "/SimpleReact-App/static/media/7.e32482ad94c98c6590ef.jpg",
     "static/media/6.jpg": "/SimpleReact-App/static/media/6.eeb41cf0c230daed9714.jpg",
     "index.html": "/SimpleReact-App/index.html",
-    "main.4900237a.css.map": "/SimpleReact-App/static/css/main.4900237a.css.map",
-    "main.88bad9ac.js.map": "/SimpleReact-App/static/js/main.88bad9ac.js.map",
+    "main.35078438.css.map": "/SimpleReact-App/static/css/main.35078438.css.map",
+    "main.9410bcfc.js.map": "/SimpleReact-App/static/js/main.9410bcfc.js.map",
     "453.d334c5b4.chunk.js.map": "/SimpleReact-App/static/js/453.d334c5b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4900237a.css",
-    "static/js/main.88bad9ac.js"
+    "static/css/main.35078438.css",
+    "static/js/main.9410bcfc.js"
   ]
 }
