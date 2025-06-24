@@ -36,7 +36,7 @@
 {
     background-color:darkcyan;
     text-align: center;
-    
+    box-shadow: 2px 2px 5px rgba(3, 2, 1, 0.5);
 }
 
 #tabsCards .card-title
